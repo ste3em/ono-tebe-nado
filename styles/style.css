@@ -79,6 +79,7 @@
   margin-top: 92px;
   color: #fff;
   background-image: url("../images/cover.jpg");
+  background-position: center;
   background-size: cover;
 }
 
@@ -173,9 +174,6 @@
   text-decoration: none;
   text-transform: uppercase;
   background-color: transparent;
-}
-
-.cover__footer-button:hover {
   cursor: pointer;
 }
 
@@ -214,6 +212,7 @@
   width: 334px;
   min-height: 563px;
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
 }
 
@@ -347,8 +346,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  list-style: none;
   font-size: 18px;
+  list-style: none;
 }
 
 .footer__link {
@@ -358,8 +357,8 @@
 .footer__social-list {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   align-items: center;
+  gap: 48px;
   align-self: start;
   width: 240px;
   margin: 0;
